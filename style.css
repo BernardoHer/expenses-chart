@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(27deg, 66%, 92%);
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+.main-container {
+  width: 344px;
+  margin: 68px auto;
+}
+@media (min-width: 600px) {
+  .main-container {
+    width: 540px;
+  }
+}
+
+.balance {
+  background-color: hsl(10deg, 79%, 65%);
+  height: 100px;
+  border-radius: 16px;
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: hsl(33deg, 100%, 98%);
+  margin-bottom: 16px;
+}
+.balance_tittle {
+  font-size: 0.7em;
+  margin-bottom: 6px;
+}
+.balance_total {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+@media (min-width: 600px) {
+  .balance {
+    height: 126px;
+  }
+  .balance_tittle {
+    font-size: 1em;
+    margin-bottom: 12px;
+  }
+  .balance_total {
+    font-size: 1.8em;
+  }
+  .balance_logo {
+    width: 75px;
+  }
+}
+
+.chart {
+  background-color: hsl(33deg, 100%, 98%);
+  color: hsl(28deg, 10%, 53%);
+  border-radius: 16px;
+  height: 424px;
+  padding: 28px 20px;
+}
+.chart_tittle {
+  color: hsl(25deg, 47%, 15%);
+  font-size: 1.25em;
+}
+.chart_bars-container {
+  display: flex;
+  justify-content: space-around;
+  height: 220px;
+  align-items: flex-end;
+}
+.chart_bar {
+  background-color: hsl(10deg, 79%, 65%);
+  width: 32px;
+  height: 200px;
+  border-radius: 4px;
+}
+.chart_bar_label {
+  padding: 4px;
+  background-color: hsl(25deg, 47%, 15%);
+  width: 38px;
+  font-size: 0.5em;
+  color: hsl(33deg, 100%, 98%);
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
